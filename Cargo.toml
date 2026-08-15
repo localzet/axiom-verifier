@@ -1,8 +1,8 @@
 [package]
 name = "axiom-verifier"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "Independent bounded verifier and proof-receipt producer"
+description = "Verifier authority and AXIOM-PROOF/2 receipt validator"
 license = "MIT"
 publish = false
 
