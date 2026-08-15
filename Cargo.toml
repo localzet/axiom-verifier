@@ -1,0 +1,11 @@
+[package]
+name = "axiom-verifier"
+version = "0.1.0"
+edition = "2021"
+description = "Independent bounded verifier and proof-receipt producer"
+license = "MIT"
+publish = false
+
+[dependencies]
+anyhow = "1"
+sha2 = "0.10"
