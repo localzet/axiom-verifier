@@ -61,6 +61,8 @@ fn sha256_hex(bytes: &[u8]) -> String {
 
 #[cfg(test)]
 mod tests {
+    use super::validate_receipt;
+
     #[test]
     fn rejects_invalid_verdict() {
         let proof = "AXIOM-PROOF/2\nverdict=INVALID\n";
